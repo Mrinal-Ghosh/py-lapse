@@ -19,8 +19,9 @@ python py-lapse.py -arguments
 ```
 
 Supported arguments:
-* -w (pixel video width)
-* -l (pixel video height)
+* folder/part to image files
+* -s (image scale) Default=1. Downsize the images with s<1
 * -f (frames per second)
 * -n (video name)
-* -g (gamma - above 1.0 brightens)
+* -g (gamma - above 1.0 brightenss)
+* -e (Extension) Default = .png
